@@ -1,0 +1,262 @@
+*{
+  box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+ margin-left: 5%;
+ margin-right:5%;
+ font-family: "Josefin Sans", sans-serif;
+
+}
+ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header , footer {
+  width:100%;
+  height:67px;
+  /* border:2px solid black; */
+  clear: both;
+  margin-top:50px;
+}
+ .mainSection {
+   /* height: 700px; */
+   width: 100%;
+   /* border: 2px solid blue; */
+ }
+ .leftSide{
+   /* height:700px; */
+   width:54%;
+   /* border: 2px solid red; */
+   margin-left: 1%;
+   float:left;
+ }
+.rightSide {
+  /* height:500px; */
+  width: 40%;
+  /* border:2px solid red; */
+   margin-left: 5%;
+   float: left;
+}
+.patriotsSide{
+  /* height: 450px; */
+  /* border: 2px solid green; */
+  width: 60%;
+  float:left;
+}
+
+.patriotsSide section:first-of-type{
+  /* height:210px; */
+  /* border: 2px solid yellow; */
+}
+.twoPics > section{
+  /* height:210px; */
+  /* border: 2px solid yellow; */
+  width: 50%;
+  margin-top: 20px;
+  float: left;
+}
+.redFonts {
+  /* height: 450px; */
+  width: 35%;
+  /* border:2px solid gray; */
+  float: left;
+  margin-left: 5%;
+}
+.truckSide {
+  /* height: 214px; */
+  /* border: 2px solid pink; */
+  /* width: 100%; */
+
+}
+aside{
+    width: 88%;
+    margin-left: 6%;
+}
+.rightSide > section{
+  margin-left: 15%;
+  margin-top:15px;
+}
+header{
+  background-color: black;
+  margin-bottom: 56px;
+}
+header img{
+  height: 50px;
+  float:left;
+}
+
+header li{
+  display:inline-block;
+  color: white;
+  margin-left: 4%;
+  font-size:13px;
+}
+header a{
+  color: white;
+
+}
+header nav {
+  float: left;
+  width: 78%;
+  margin-top: 27px;
+  margin-top: 27px;
+  padding-left: 8%;
+}
+.leftSide h1 {
+  font-size: 13px;
+  font-weight: bolder;
+  border-bottom: 2px solid red;
+}
+.belichick img{
+  height: 206px;
+  width: 101%;
+}
+.belichick h2{
+  font-size: 15px;
+  font-weight: bold;
+}
+.twoPics img{
+  height: 200px;
+  width: 102%;
+  margin-top:9px;
+}
+.twoPics h3{
+  font-size: 13px;
+  font-weight: bold;
+}
+/* .redFonts h4{
+  font-size: 10px;
+  color:red;
+} */
+.redFonts a{
+  font-size: 10px;
+  color: red;
+}
+.redFonts li{
+  padding-top: 3px;
+}
+.redFonts p{
+  font-size: 15px;
+  border-bottom: 1px solid #D3DBD4;
+}
+.truckSide h2{
+  font-size: 14px;
+  font-weight:bolder;
+  float: left;
+}
+.truckSide h3 a{
+  font-size:13px;
+  color:#D3DBD4;
+  float:left;
+  padding-left: 3%;
+  text-decoration: underline;
+}
+.truckSide img{
+  clear: both;
+  width: 90%;
+  height:177px;
+  float:left;
+margin-bottom:10px;
+}
+.truckSide h4{
+  font-size: 20px;
+  clear: both;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+.descripe li {
+  float:left;
+
+}
+.descripe p{
+  font-size: 10px;
+  margin-top:24px;
+}
+.descripe{
+  float:left;
+  width: 25%;
+}
+.truckSide{
+  float: left;
+  width: 30%;
+}
+aside img{
+  width: 65%;
+  margin-left: 13%
+}
+.ad li {
+  margin-bottom: 10px;
+}
+.ad ol li {
+  width:65%;
+}
+.footP1 a{
+color: red;
+font-size:20px;
+}
+.footP1{
+  float:left;
+  display: block;
+}
+.footP2{
+  float:left;
+  text-align: right;
+  display: block;
+  margin-left:60%;
+  right: 3em;
+}
+.footP2 p {
+font-size: 10px;
+}
+.footP2 a{
+  right: 3em;
+}
+.footP2 li{
+  float:left;
+}
